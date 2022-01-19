@@ -1,0 +1,15 @@
+.wrapper {
+	width: 100%;
+	max-width: 1024px;
+	margin: 0 auto;
+	padding-bottom: 4%;
+	ul{
+		text-align: center;
+		li{
+			display: inline;
+			a{
+				margin-right: 3%;
+			}
+		}
+	}
+}
