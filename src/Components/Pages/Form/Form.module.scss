@@ -1,0 +1,19 @@
+.wrapper{
+    form{
+        margin: auto;
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 40%;
+        .method{
+            margin: auto;
+            margin-bottom: 2%;
+        }
+        button{
+            margin: auto;
+            width: 40%;
+        }
+    }
+    .divWrapper{
+        text-align: center;
+    }
+}

@@ -3,7 +3,8 @@ import styles from './Header.module.scss'
 
 const navItems = [
 	{ name: 'Send en hilsen', path: '/' },
-    { name: 'Button tæller', path: '/counting'}
+    { name: 'Button tæller', path: '/counting'},
+	{ name: 'Kontaktformular', path: '/form'}
 ]
 
 export const Header = (props) => {
