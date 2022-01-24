@@ -2,6 +2,7 @@ import { useState } from 'react'
 import styles from './Form.module.scss'
 
 export const Form = () => {
+    //Hooks (skal stå over øverst)
     const [ name, setName ] = useState('');
     const [ phone, setPhone ] = useState('');
     const [ email, setEmail ] = useState('');

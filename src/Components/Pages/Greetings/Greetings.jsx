@@ -2,7 +2,7 @@ import { useState } from "react"
 import styles from './Greetings.module.scss'
 
 export const Greetings = () => {
-    //Hook (skal stå over øverst)
+    //Hooks (skal stå over øverst)
     const [ name, setName ] = useState('Maria');
 
     return (
